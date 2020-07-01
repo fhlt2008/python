@@ -1,20 +1,8 @@
 import requests
 import json
 import sys
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
-
-
-
-
-
-
-
-
-
-
 aheaders = {'Content-Type': 'application/json','Referer':'http://59.231.11.90/'}
 phone = [{"phone":13467996789},{"phone":13487416023}]
 url = "http://59.231.11.90/info/insertNetInfo"
